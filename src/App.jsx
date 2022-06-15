@@ -1,14 +1,24 @@
 import './App.css'
-import { CakeView } from './features/cake/CakeView'
-import { IcecreamView } from './features/icecream/IcecreamView'
-import { UserView } from './features/user/UserView'
-
+// import { CakeView } from './View'
+// import { IcecreamView } from './features/icecream/IcecreamView'
+import { CakeView } from './View'
+import View2 from './View2'
+// import Slice from './Slice'
 function App() {
   return (
     <div className='App'>
+      <h1>Hwllo</h1>
       <CakeView />
+      <View2 />
+      {/* 
       <IcecreamView />
-      <UserView />
+      <UserView /> */}
+      {/* <Slice />
+      <CakeView /> */}
+
+
+
+
     </div>
   )
 }
