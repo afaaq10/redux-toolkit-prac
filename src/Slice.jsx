@@ -7,7 +7,7 @@ export const myReducer = createReducer(
     initialState,
     {
         increment: (state) => {
-            state.cakes = state.cakes + 1
+            state.cakes += 1
         },
         decrement: (state) => {
             state.cakes--
@@ -17,5 +17,4 @@ export const myReducer = createReducer(
 
     })
 
-
-
+createReducer()
