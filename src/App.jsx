@@ -7,7 +7,7 @@ import View2 from './View2'
 function App() {
   return (
     <div className='App'>
-      <h1>Hwllo</h1>
+    
       <CakeView />
       <View2 />
       {/* 
