@@ -26,4 +26,4 @@ export const myReducer = createReducer(
 
     })
 
-createReducer()
+
