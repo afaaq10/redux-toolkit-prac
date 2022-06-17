@@ -19,26 +19,26 @@ export const CakeView = () => {
             type: "decrement"
         })
     }
-    const changeColor = () => {
-        dispatch({
-            type: "changeBackgroundColor",
-            payload: "pink"
-        })
-    }
-const changeText=()=> {
-    dispatch({ 
-            type: "changeText",
-            payload: "Oops"
-    })
-}
+    // const changeColor = () => {
+    //     dispatch({
+    //         type: "changeBackgroundColor",
+    //         payload: "pink"
+    //     })
+    // }
+// const changeText=()=> {
+//     dispatch({ 
+//             type: "changeText",
+//             payload: "Oops"
+//     })
+// }
 
     return (
         <div>
             <h2>{numOfCakes}</h2>
             <button onClick={inc}>Increment Counter</button>
             <button onClick={dec}>Decrement Counter</button>
-            <button onClick={changeColor}>ChangeColor</button>
-            <button onClick={changeText}>{text}</button>
+            {/* <button onClick={changeColor}>ChangeColor</button>
+            <button onClick={()=>dispatch({type:"changeText",payload:"oops"})}>{text}</button> */}
 
         </div>
     )

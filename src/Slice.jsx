@@ -1,10 +1,8 @@
 import { createReducer } from '@reduxjs/toolkit'
 
-const backgroundColor=document.body.style.backgroundColor = "red";
 const initialState = {
-    cakes: 0,
-    backgroundColor: backgroundColor,
-    text: "Hello, world",
+    cakes: 0
+  
 }
 export const myReducer = createReducer(
     initialState,
@@ -16,13 +14,7 @@ export const myReducer = createReducer(
             state.cakes--
 
         },
-        changeBackgroundColor: (state,action) => {
-            state.backgroundColor = document.body.style.backgroundColor =action.payload;
-        },
-
-      changeText: (state,action) => {
-        state.text = action.payload
-      }
+       
 
     })
 
