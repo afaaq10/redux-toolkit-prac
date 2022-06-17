@@ -25,12 +25,7 @@ export const CakeView = () => {
     //         payload: "pink"
     //     })
     // }
-// const changeText=()=> {
-//     dispatch({ 
-//             type: "changeText",
-//             payload: "Oops"
-//     })
-// }
+
 
     return (
         <div>
