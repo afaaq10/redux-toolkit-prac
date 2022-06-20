@@ -1,4 +1,3 @@
-
 import { CakeView } from './View'
 import Teams from './Teams';
 // import { IcecreamView } from './features/icecream/IcecreamView'
