@@ -21,7 +21,7 @@ async function  myfunction() {
 const ab= await axios.get('https://fakestoreapi.com/products')
 const cd=ab.data
 setA(cd)
-console.log(cd)
+
 }
 
 
