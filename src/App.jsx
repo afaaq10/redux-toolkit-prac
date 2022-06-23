@@ -1,5 +1,6 @@
-import { CakeView } from './View'
-import Teams from './Teams';
+
+import Home from './pages/Home';
+import Cart from './pages/Cart';
 // import { IcecreamView } from './features/icecream/IcecreamView'
 // import { CakeView } from './View'
 // import Slice from './Slice'
@@ -9,6 +10,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import Navbar from './components/Navbar';
 
 
 function App() {
@@ -16,10 +18,12 @@ function App() {
       
 
     <BrowserRouter>
+    
       <div className='App'>
+      <Navbar/>
         <Routes>
-        <Route path="/" element={<CakeView/>}/>
-        <Route path="/teams" element={<Teams/>}/>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/Cart" element={<Cart/>}/>
         </Routes>
       </div>
     </BrowserRouter>
