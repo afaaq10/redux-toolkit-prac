@@ -5,28 +5,18 @@ import { useState } from 'react'
 
 
 const Products = () => {
-
 const [a,setA]=useState([])    
 useEffect(() => {
-  
-myfunction()
+  myfunction()
 
   
 }, [])
 
-
-
 async function  myfunction() {
-
 const ab= await axios.get('https://fakestoreapi.com/products')
 const cd=ab.data
 setA(cd)
-
 }
-
-
-
-
   return (
     <div>
    {a.map((x,id)=>
@@ -40,9 +30,6 @@ setA(cd)
    </div>
    )}
     </div>
-
-  
-  )
+ )
 }
-
 export default Products
